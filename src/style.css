@@ -114,11 +114,3 @@ section {
         border-color: transparent;
     }
 }
-
-.float__button{
-    height: 10rem;
-    position: fixed;
-    bottom: 1rem;
-    right: 1rem;
-    image-rendering: optimizeQuality;
-}
