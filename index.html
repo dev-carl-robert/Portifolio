@@ -1,35 +1,60 @@
 <!DOCTYPE html>
-<html lang="pt br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./src/assets/logo-Cube.jpg" type="image/x-icon">
-    <title>Carl Robert</title>
+    <title>Portifólio Carl Robert</title>
 
-    <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/css da pagina de login/page__login.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="src/css/reset.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Roboto&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Genos:wght@100;400&family=Nova+Square&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+    <header>
+        <div class="logo__content">
+            <a href=""><img src="./src/assets/logo-Cube.jpg" alt="logo" class="logo__image"></a>
+        </div>
+        <nav>
+            <ul class="header__navigation">
+                <li></li><a href="#" class="links">Trabalhos</a></li>
+                <li></li><a href="#" class="links">Skills</a></li>
+                <li></li><a href="#" class="links">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <span class="detalhe__header"></span>
+
     <main>
-        <section id="home__page">
-            <div class="login glass__efect">
-                <div class="form__header">
-                    <h2>Como devo lhe chamar?</h2>
-                </div>
-                <div class="input__box">
-                    <input type="text" placeholder="Seu Nome ....">
-                </div>
-                <div class="input__box">
-                    <input type="submit" value="login" id="btn">
+        <section>
+            <div class="hero">
+                <img src="./src/assets/robert.png" alt="">
+                <span class="hero__detalhe"></span>
+
+                <div class="hero__text">
+                    <span class="detalhe-title__hero"></span>
+                    <h1>Eu sou Carl Robert</h1>
+                    <h2>Web designer</h2>
+                    <p>Sou brasileiro, e sou um
+                        apaixonado desenvolvedor web dedicado
+                        a transformar ideias criativas em soluções
+                        digitais incríveis. estou
+                        constantemente buscando aprender e aplicar as
+                        mais recentes tecnologias para entregar produtos
+                        de alta qualidade e ampliar minha experiência em progamação.</p>
                 </div>
 
+                <div class="icons">
+                    <img src="./src/assets/icons8-react-native-50.png" alt="" class="react">
+                    <img src="./src/assets/icons8-css-50.png" alt="" class="css">
+                    <img src="./src/assets/icons8-javascript-50.png" alt="" class="js"> 
+                    <img src="./src/assets/icons8-html-50.png" alt="" class="html">
+                </div>
             </div>
         </section>
     </main>
