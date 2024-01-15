@@ -1,8 +1,9 @@
-:root{
-    font-size: 62,5%
-} 
+:root {
+    font-size: 62, 5%
+}
+
 body {
-    background-color: #242425;  
+    background-color: #242425;
     font-family: 'Nova Square', sans-serif;
     position: relative;
 }
@@ -18,26 +19,30 @@ header {
     margin: auto 5rem;
     margin-left: 2rem;
 }
+
 .logo__image {
     height: 8rem;
 }
-    
+
 .header__navigation {
     display: flex;
     gap: 3rem;
 }
+
 .links {
     color: #B89B5C;
     width: 100%;
     font-size: 1rem;
 }
+
 .links:hover {
     text-decoration: underline;
     text-underline-offset: .5rem;
     opacity: .8;
     transform: scale(1.1);
 }
-.detalhe__header{
+
+.detalhe__header {
     background-color: #B89B5C;
     width: 10rem;
     height: .2rem;
@@ -50,7 +55,8 @@ header {
     gap: 5rem;
     align-items: center;
 }
-.hero__detalhe{
+
+.hero__detalhe {
     background-color: #C89B5C;
     width: 20rem;
     height: 23.7rem;
@@ -59,15 +65,17 @@ header {
     clip-path: polygon(0 0, 60% 0, 68% 100%, 0% 100%);
     z-index: -1;
 }
-.hero img{
+
+.hero img {
     background-color: #242425;
     border-radius: 50%;
 }
 
-.hero__text{
+.hero__text {
     width: 40rem;
     position: relative;
 }
+
 .detalhe-title__hero {
     height: .3rem;
     width: 2rem;
@@ -75,6 +83,7 @@ header {
     position: absolute;
     top: 1.2rem;
 }
+
 .hero h1 {
     color: #B89B5C;
     font-size: 2.7rem;
@@ -83,6 +92,7 @@ header {
     text-transform: uppercase;
     font-weight: 600;
 }
+
 .hero h2 {
     color: #d7d7d7;
     font-size: 2.4rem;
@@ -104,29 +114,51 @@ header {
     flex-direction: column;
     gap: 2rem;
     position: relative;
-    right: -3rem;
+    right: -8rem;
     top: -3rem;
+
+
 }
-.icons img{
+
+.icon {
+    transform: rotate(45deg);
+    animation: pulseAnimation 5s infinite alternate;
+    z-index: 2;
+}
+
+@keyframes pulseAnimation {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.icons img {
     height: 4rem;
     width: 4rem;
-    image-rendering: crisp-edges;
 }
+
 .react {
     position: absolute;
     right: 2rem;
     top: 3rem;
 }
+
 .css {
     position: absolute;
     right: -3rem;
     top: 8rem;
 }
+
 .js {
     position: absolute;
     right: -4rem;
     top: -3rem;
 }
+
 .html {
     position: absolute;
     right: 4rem;
